@@ -1,0 +1,289 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 7770,
+      "max": [
+        4123.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-indices",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4124,
+      "max": [
+        572.0,
+        57.0,
+        2.0
+      ],
+      "min": [
+        -2.0,
+        0.0,
+        -372.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-position",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 49488,
+      "componentType": 5126,
+      "count": 4124,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "name": "buffer-0-group-0-mesh-0-normal",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4124,
+      "max": [
+        11.399999618530273,
+        3.6344099044799805
+      ],
+      "min": [
+        -11.399999618530273,
+        -7.400000095367432
+      ],
+      "name": "buffer-0-group-0-mesh-0-texcoord",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15540,
+      "componentType": 5123,
+      "count": 1617,
+      "max": [
+        521.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "buffer-0-group-1-mesh-0-indices",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 98976,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        570.0,
+        5.0,
+        -10.0
+      ],
+      "min": [
+        10.0,
+        5.0,
+        -360.0
+      ],
+      "name": "buffer-0-group-1-mesh-0-position",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 105240,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        1.9417199559256485E-33,
+        1.0,
+        2.0104900488685987E-33
+      ],
+      "min": [
+        1.9417199559256485E-33,
+        1.0,
+        2.0104900488685987E-33
+      ],
+      "name": "buffer-0-group-1-mesh-0-normal",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32992,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        11.399999618530273,
+        -0.20000000298023224
+      ],
+      "min": [
+        0.20000000298023224,
+        -7.199999809265137
+      ],
+      "name": "buffer-0-group-1-mesh-0-texcoord",
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Obj2GltfConverter",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 18774,
+      "byteOffset": 0,
+      "name": "buffer-0-bufferview-ushort",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 111504,
+      "byteOffset": 18780,
+      "byteStride": 12,
+      "name": "buffer-0-bufferview-vec3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 37168,
+      "byteOffset": 130288,
+      "byteStride": 8,
+      "name": "buffer-0-bufferview-vec2",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 167456,
+      "name": "buffer-0",
+      "uri": "shining+maze.bin"
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "Vegetation_Grass_Artificial-diffuse-image",
+      "uri": "shining+maze/Vegetation_Grass_Artificial.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "Groundcover_Sand_Smooth-diffuse-image",
+      "uri": "shining+maze/Groundcover_Sand_Smooth.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Vegetation_Grass_Artificial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.384314,
+          0.54902,
+          0.290196,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9699476628648295
+      }
+    },
+    {
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "name": "Groundcover_Sand_Smooth",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.713725,
+          0.580392,
+          0.396078,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9699476628648295
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "buffer-0-mesh-0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "node-0"
+    }
+  ],
+  "samplers": [
+    {
+      "name": "Vegetation_Grass_Artificial-diffuse-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Groundcover_Sand_Smooth-diffuse-sampler",
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scenes": [
+    {
+      "name": "scene-0",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Vegetation_Grass_Artificial-diffuse-texture",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "Groundcover_Sand_Smooth-diffuse-texture",
+      "sampler": 1,
+      "source": 1
+    }
+  ]
+}
